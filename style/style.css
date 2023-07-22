@@ -1,3 +1,41 @@
 /* Inter Fonts Import - font-family: 'Inter', sans-serif; (400-600bold) */
-@import url('https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script:wght@600&family=Dongle&family=Exo:wght@500&family=Inter:wght@400;600&family=Kanit:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,700&family=Mynerve&family=Open+Sans:wght@300;400&family=Signika+Negative&family=Tilt+Neon&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script:wght@600&family=Dongle&family=Exo:wght@500&family=Inter:wght@400;600&family=Kanit:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,700&family=Mynerve&family=Open+Sans:wght@300;400&family=Signika+Negative&family=Tilt+Neon&family=Ubuntu:wght@300&display=swap");
 
+header {
+  width: 1440px;
+  padding: 80px 52px;
+  background-color: #c7e57442;
+  margin: 0 auto;
+}
+
+/* Header Section style */
+.header_container {
+  width: 1336px;
+  height: 178px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.team_box {
+  width: 716px;
+  font-family: "Inter", sans-serif;
+  text-align: center;
+  color: #282828;
+  font-weight: 600;
+  font-feature-settings: "clig" off, "liga" off;
+}
+
+.team_box_title {
+  font-size: 54px;
+  line-height: 62px;
+  letter-spacing: -1px;
+}
+
+.team_box_about {
+  color: #5f6980;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 16px;
+  line-height: 35px;
+}
