@@ -3,13 +3,13 @@
 
 header {
   width: 1440px;
-  padding: 80px 52px;
-  background-color: #c7e57442;
+  padding: 80px 52px 48px 52px;
   margin: 0 auto;
 }
 
 /* Header Section style */
-.header_container {
+.header_container,
+.cards_container {
   width: 1336px;
   height: 178px;
   display: flex;
@@ -38,4 +38,51 @@ header {
   font-weight: 400;
   margin-top: 16px;
   line-height: 35px;
+}
+
+/* Cards Content Style */
+
+.cards_container {
+  height: 908px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  align-content: space-between;
+  justify-content: space-between;
+}
+
+.cards_user_box {
+  width: 310px;
+  height: 430px;
+  border: 1px solid #eaecf0;
+}
+.user_info_content {
+  padding: 0px 16px;
+  margin:16px 0;
+}
+.employee_name {
+  color: #282828;
+  font-family: "Inter", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.employee_status,
+.employee_about {
+  color: #3e3e59;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px; 
+  font-family: "Inter", sans-serif;
+}
+
+.employee_about {
+  color: #5F6980;
+  margin: 8px 0 24px;
+}
+
+.icon_box {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
 }
