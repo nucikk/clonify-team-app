@@ -1,7 +1,8 @@
 /* Inter Fonts Import - font-family: 'Inter', sans-serif; (400-600bold) */
 @import url("https://fonts.googleapis.com/css2?family=Cinzel&family=Dancing+Script:wght@600&family=Dongle&family=Exo:wght@500&family=Inter:wght@400;600&family=Kanit:wght@300&family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,700&family=Mynerve&family=Open+Sans:wght@300;400&family=Signika+Negative&family=Tilt+Neon&family=Ubuntu:wght@300&display=swap");
 
-header {
+header,
+footer {
   width: 1440px;
   padding: 80px 52px 48px 52px;
   margin: 0 auto;
@@ -55,10 +56,12 @@ header {
   height: 430px;
   border: 1px solid #eaecf0;
 }
+
 .user_info_content {
   padding: 0px 16px;
-  margin:16px 0;
+  margin: 16px 0;
 }
+
 .employee_name {
   color: #282828;
   font-family: "Inter", sans-serif;
@@ -68,16 +71,17 @@ header {
 }
 
 .employee_status,
-.employee_about {
+.employee_about,
+.footer_container {
   color: #3e3e59;
   font-size: 14px;
   font-weight: 400;
-  line-height: 22px; 
+  line-height: 22px;
   font-family: "Inter", sans-serif;
 }
 
 .employee_about {
-  color: #5F6980;
+  color: #5f6980;
   margin: 8px 0 24px;
 }
 
@@ -85,4 +89,84 @@ header {
   width: 140px;
   display: flex;
   justify-content: space-between;
+}
+
+/* Footer Section */
+
+footer {
+  height: 442px;
+  background-color: #53535354;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer_container {
+  width: 1306px;
+  height: 233px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_info_block {
+  width: 318.047px;
+  height: 231px;
+  color: #535353;
+}
+
+.footer_description,
+.icon_groups {
+  margin: 32px 0 28px 16px;
+  line-height: normal;
+}
+
+.icon_groups {
+  width: 104px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer_link_block,
+.footer_services_block {
+  width: 136px;
+  height: 231px;
+}
+.footer_block_title {
+  color: #1e1e1e;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.link_box {
+  height: 128px;
+  margin-top: 65px;
+}
+
+.footer_link {
+  height: 48px;
+  display: flex;
+  align-items: center;
+  color: #535353;
+}
+
+.footer_link:hover {
+  color: #068ac3;
+}
+.footer_services_block {
+  width: 199px;
+}
+
+.footer_languages_block {
+  width: 107px;
+  height: 127.45px;
+}
+
+.language_btn {
+  width: 80px;
+  height: 45px;
+  background-color: #054a68;
+  margin-top: 58.45px;
+  color: #fff;
 }

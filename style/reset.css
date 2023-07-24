@@ -47,6 +47,7 @@ ul {
 }
 a {
   text-decoration: none;
+  color: black;
 }
 * {
   box-sizing: border-box;
@@ -55,4 +56,8 @@ a {
 select {
   border:0px;
   outline:0px;
+}
+
+button {
+  border: none;
 }
